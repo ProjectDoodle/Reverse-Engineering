@@ -1,0 +1,16 @@
+Name:                  
+Matthew Robinson
+
+Date Finished:          
+2/26/20
+
+What the program does:
+Scans IP range for open 5554 ports running ftp. If found, it will
+try to connect to the ftp server with no credentials. If successful,
+the system will be marked as infected.
+
+How to compile it:
+Install nmap module for python3
+"pip -install python-nmap"
+Then run code:
+"python3 <name>.py
